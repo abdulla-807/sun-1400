@@ -25,6 +25,86 @@ ul {
   margin: 0 auto;
   padding: 0 15px;
 }
+
+
+
+.title__list {
+  box-sizing: border-box;
+  position: absolute;
+  width: 196px;
+  height: 36px;
+  left: 653px;
+  top: 585px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+
+.title__text {
+  position: absolute;
+  width: 26px;
+  height: 18px;
+  left: 826px;
+  top: 602px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 18px;
+  display: flex;
+  align-items: flex-end;
+  color: #FFFFFF;
+}
+
+.title__news {
+  border: 1px solid #000000;
+  border-radius: 4px;
+  position: absolute;
+  width: 186px;
+  height: 36px;
+  left: 627px;
+  top: 1175px;
+}
+
+.title__card {
+  box-sizing: border-box;
+  position: absolute;
+  width: 266px;
+  height: 36px;
+  left: 587px;
+  top: 2855px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+}
+
+/*expreess__wrapper*/
+
+.express__card {
+  display: flex;
+  justify-content: space-between;
+}
+.express__cards {
+  max-width: 350px;
+  width: 100%;
+  height: 502px;
+ 
+  position: relative;
+  
+}
+.express__link {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  right: 15px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 24px;
+  color: #fff;
+ text-transform: uppercase;
+}
+/*expreess__wrapper*/
+
 .express{
   max-width: 1440px;
   width: 100%;
@@ -78,3 +158,4 @@ ul {
   display: flex;
   justify-content: space-between;
 }
+
