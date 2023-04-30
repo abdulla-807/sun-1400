@@ -25,3 +25,20 @@ ul {
   margin: 0 auto;
   padding: 0 15px;
 }
+.footer{
+background: #322E41;
+text-align: center;
+}
+.footer__logo {
+margin-top: 22px;
+margin-bottom: 28px;
+}
+.menu{
+display: flex;
+color: #fff;
+justify-content: space-between;
+margin-left: 30px;
+padding-bottom: 23px;
+}
+
+
