@@ -25,3 +25,32 @@ ul {
   margin: 0 auto;
   padding: 0 15px;
 }
+
+.ads {
+  background: url(../img/ads.jpg) no-repeat center / cover ;
+  height: 557px;
+  margin-bottom: 40px;
+}
+
+.ads__desk {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+}
+
+.ads__title {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.ads__content {
+  display: inline-block;
+  padding: 20px 114px;
+  background-color: #BABABA;
+  text-align: center;
+  margin-left: 50px;
+  background: rgba(186, 186, 186, 0.5);
+  backdrop-filter: blur(7.5px);
+}
